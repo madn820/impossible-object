@@ -1,0 +1,5 @@
+{
+  "name":"impossible-object-film","version":"1.0.0","private":true,"type":"module",
+  "scripts":{"start":"vite --host 127.0.0.1","audio":"node scripts/audio.js","preview":"node scripts/render.js --preview","render":"node scripts/render.js","test":"node --check scripts/render.js && node --check scripts/audio.js && node --check src/main.js"},
+  "dependencies":{"three":"^0.180.0","vite":"^7.1.0","playwright":"^1.55.0"}
+}
